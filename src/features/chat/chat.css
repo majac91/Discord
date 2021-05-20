@@ -1,0 +1,6 @@
+.chat {
+  flex: 0.75;
+  display: flex;
+  /* background: red; */
+  /* height: 300px; */
+}
