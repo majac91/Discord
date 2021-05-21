@@ -4,7 +4,7 @@ const SidebarChannel = () => {
   return (
     <div className="sidebarChannel">
       <h4>
-        <span className="sidebarChannel__hash">#</span>
+        <span className="hash">#</span>
         Youtube
       </h4>
     </div>

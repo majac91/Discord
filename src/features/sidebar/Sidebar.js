@@ -4,7 +4,7 @@ import SidebarChannel from "../sidebarChannel/SidebarChannel";
 //icons
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import AddIcon from "@material-ui/icons/Add";
-import SignallCellIcon from "@material-ui/icons/SignalCellular0Bar";
+import SignallCellIcon from "@material-ui/icons/SignalCellularAlt";
 import Avatar from "@material-ui/core/Avatar";
 import InfoOutlidenIcon from "@material-ui/icons/InfoOutlined";
 import CallIcon from "@material-ui/icons/Call";
