@@ -1,5 +1,5 @@
 import React from "react";
-import SidebarChannel from "../sidebarChannel/SidebarChannel";
+import SidebarChannel from "../SidebarChannel/SidebarChannel";
 
 //icons
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -56,7 +56,7 @@ const Sidebar = () => {
           <h3>@UserName</h3>
           <p>#userId</p>
         </div>
-        <div className="sidebar-profile__profileIcons">
+        <div className="sidebar__profileIcons">
           <MicIcon></MicIcon>
           <HeadsetIcon></HeadsetIcon>
           <SettingsIcon></SettingsIcon>

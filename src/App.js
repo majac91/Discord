@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "./features/sidebar/Sidebar";
-import Chat from "./features/chat/Chat";
+import Sidebar from "./features/Sidebar/Sidebar";
+import Chat from "./features/Chat/Chat";
 import "./App.scss";
 
 function App() {

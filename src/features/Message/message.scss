@@ -1,0 +1,23 @@
+.message {
+  display: flex;
+  //   align-items: center;
+  color: white;
+  padding: 15px;
+  height: 100%;
+
+  &__info {
+    margin-left: 20px;
+    height: max-content;
+    h4 {
+      width: max-content;
+    }
+    p {
+      margin-top: 6px;
+    }
+  }
+  &__timestamp {
+    color: gray;
+    font-size: x-small;
+    margin-left: 20px;
+  }
+}

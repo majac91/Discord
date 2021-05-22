@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   flex: 0.25;
-  background: var(--color-dark-gray);
+  background: #2c2d31;
   height: 100%;
 
   &__top {
@@ -72,5 +72,10 @@
   &__voice-voiceIcon,
   &__profile-profileIcon {
     margin-right: 10px;
+  }
+  &__voiceIcons,
+  &__profileIcons {
+    display: flex;
+    flex-direction: column;
   }
 }
