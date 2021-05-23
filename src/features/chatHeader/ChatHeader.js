@@ -6,13 +6,13 @@ import SearchIcon from "@material-ui/icons/SearchRounded";
 import SendIcon from "@material-ui/icons/SendRounded";
 import HelpIcon from "@material-ui/icons/HelpRounded";
 
-const ChatHeader = () => {
+const ChatHeader = ({ channelName }) => {
   return (
     <div className="chatHeader">
       <div className="chatHeader__left">
         <h3>
           <span className="hash">#</span>
-          Test channel name
+          {channelName}
         </h3>
       </div>
       <div className="chatHeader__right">
